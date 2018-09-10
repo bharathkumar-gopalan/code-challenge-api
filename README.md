@@ -12,7 +12,7 @@ This project requires maven(3.X) to be installed and configured . For more detai
 1. This project uses OKHttp client and does not use a framework approach . So detailed configuration for different environments and other features are not available at this moment !
 
 #### A note on assertion messages 
-You might have noticed that the testNG AssertTrue messages are positive , This is done intentially . For example consider the folowing line 
+You might have noticed that the testNG AssertTrue messages are positive , This is done for a reason . For example consider the folowing line 
 `Assert.assertTrue(200 == API_CREATED_CODE, "The API gave a 200 response --");`
 When this fails , TestNG will report as follows 
 
