@@ -17,3 +17,10 @@ You might have noticed that the testNG AssertTrue messages are positive , This i
 When this fails , TestNG will report as follows 
 
 __java.lang.AssertionError: The API gave a 200 response -- expected [true] but found [false]__
+
+
+#### __Libraries used__
+1. SLF4j and SLF4J log4J binding : For logging 
+2. TestNG : Testing framework for running the test cases
+3. OKHttp client : The HTTP client for automation 
+4. gson : for json serialization and deserialization
